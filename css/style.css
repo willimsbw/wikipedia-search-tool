@@ -1,0 +1,103 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #efefef;
+}
+.full-body-container {
+  height: 100%;
+}
+.search-results {
+  color: black;
+  margin: 20px;
+}
+.page-viewer {
+  height: 100%;
+  width: 100%;
+}
+.search-bar-holder {
+  max-height: auto;
+  max-width: 500px;
+  border-color: #efefef;
+  text-align: center;
+  background-color: #efefef;
+}
+.search-bar-holder .random-article-button {
+  margin: 20px 0px 20px 0px;
+}
+.header {
+  border-color: white;
+}
+.social-row .facebook-icon .backing {
+  color: #3b5998;
+}
+.social-row .facebook-icon .icon {
+  color: white;
+}
+.social-row .facebook-icon :hover .icon {
+  color: black;
+}
+.social-row .facebook-icon :hover .backing {
+  color: white;
+}
+.social-row .linkedin-icon .backing {
+  color: #0077B5;
+}
+.social-row .linkedin-icon .icon {
+  color: white;
+}
+.social-row .linkedin-icon :hover .icon {
+  color: black;
+}
+.social-row .linkedin-icon :hover .backing {
+  color: white;
+}
+.social-row .github-icon .backing {
+  color: #6cc644;
+}
+.social-row .github-icon .icon {
+  color: white;
+}
+.social-row .github-icon :hover .icon {
+  color: black;
+}
+.social-row .github-icon :hover .backing {
+  color: white;
+}
+.social-row .twitter-icon .backing {
+  color: #1da1f2;
+}
+.social-row .twitter-icon .icon {
+  color: white;
+}
+.social-row .twitter-icon :hover .icon {
+  color: black;
+}
+.social-row .twitter-icon :hover .backing {
+  color: white;
+}
+.social-row .free-code-camp-icon .backing {
+  color: #036301;
+}
+.social-row .free-code-camp-icon .icon {
+  color: white;
+}
+.social-row .free-code-camp-icon :hover .icon {
+  color: black;
+}
+.social-row .free-code-camp-icon :hover .backing {
+  color: white;
+}
+.social-row .codepen-icon .backing {
+  color: black;
+}
+.social-row .codepen-icon .icon {
+  color: white;
+}
+.social-row .codepen-icon :hover .icon {
+  color: black;
+}
+.social-row .codepen-icon :hover .backing {
+  color: white;
+}

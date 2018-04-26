@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Search Tool</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+   <head>
+  <title>Wikipedia Viewer</title>
+  <script src="https://use.fontawesome.com/1bee95ce63.js"></script>
+</head>
+
+<body>
+   <!-- header container start -->
+  <div id="header" class="container-fluid d-none">
+    <!-- Row with Search Box Card start -->
+    <div class="row">
+      <!-- col with search box card start -->
+      <div class="col">
+        <!-- card containing search bar start -->
+        <div class="card-fluid card-body header">
+          <form class="search-form" onSubmit="return false;">  
+            <!-- input group; contains search input and button -->
+            <div class="input-group input-group">
+              <!-- start new random article button -->
+              <span class="input-group-btn">
+                <a href="https://en.wikipedia.org/wiki/Special:Random" target="page-viewer" class="btn btn-primary random-article-button" role="button">New Article</a>
+              </span>
+              <!-- end new random article button -->
+              <!-- search box -->
+              <input id="header-search-box" type="text" class="form-control search-bar" placeholder="Search Wikipedia for..." aria-label="Search Wikipedia for...">
+              <!-- end search box -->
+              <!-- search button -->
+              <span class="input-group-btn">
+                <button id="header-search-button" class="btn btn-primary search-button" type="submit"><i class="fa fa-search" aria-hidden="true"> Go!</i></button>
+              </span>
+              <!-- end search button -->
+          </div>
+          <!-- end input group -->
+          </form>
+        </div>
+        <!-- end card -->
+      </div>
+      <!-- end col -->
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end header container -->
+  
+  <!-- full body container start -->
+  <div id="full-body-container" class="container-fluid d-flex full-body-container justify-content-center align-items-center">
+    <!-- Row with Search Box Card start -->
+    <div class="row">
+      <!-- col with search box card start -->
+      <div class="col">
+        <!-- card containing search bar and logo start -->
+        <div class="card search-bar-holder">
+          <!-- card image; wikipedia logo -->
+          <a href="https://en.wikipedia.org" target="page-viewer"><img class="card-img-top logo" src="https://drive.google.com/uc?export=view&id=0BymSHQO-ec7JZVlwOE9ZRUtFVFE" alt="Wikipedia Logo"></a>
+          <!-- end card image -->
+          <!-- card body; contains search bar -->
+          <div class="card-body">
+             <form class="search-form" onSubmit="return false;"> 
+              <!-- input group; contains search input and button -->
+              <div class="input-group input-group">
+                <!-- search box -->
+                <input id="body-search-box" type="text" class="form-control search-bar" placeholder="Search Wikipedia for..." aria-label="Search Wikipedia for...">
+                <!-- end search box -->
+                <!-- search button -->
+                <span class="input-group-btn">
+                  <button id="body-search-button" class="btn btn-primary search-button" type="submit"><i class="fa fa-search" aria-hidden="true"> Go!</i></button>
+                </span>
+                <!-- end search button -->
+              </div>
+              <!-- end input group -->
+            </form>
+            <!-- Random Article Button start -->
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="page-viewer" class="btn btn-primary random-article-button" role="button">
+              Random Article
+            </a>
+            <!-- end Random article button -->
+          </div>
+          <!-- end card body -->
+        </div>
+        <!-- end card -->
+      </div>
+      <!-- end col -->
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end full body container -->
+  
+  <!-- iframe start -->
+  <iframe id="page-viewer" class="page-viewer d-none" name="page-viewer"></iframe>
+  <!-- end iframe-->
+  
+  <!-- sample card for search results -->
+  <div id="results-container" class="container d-none search-result">
+  </div>
+  <!-- end sample card container -->
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
